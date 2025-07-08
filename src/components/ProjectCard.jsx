@@ -48,7 +48,7 @@ const  ProjectCard = ({projectImage,projectTitle,projectDiscription,techStack,pr
                             padding-right:8px;
                         }
                         .card img{
-                            height:260px;
+                            height:200px;
                         }
                         .card h2 {
                             margin-left:10px;
