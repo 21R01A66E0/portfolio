@@ -22,7 +22,7 @@ const  ProjectCard = ({projectImage,projectTitle,projectDiscription,techStack,pr
                         border-radius: 12px;
                         box-shadow: 0 4px 10px rgba(0,0,0,0.2);
                         transition: transform 0.2s ease;
-                        min-width:300px;
+                        min-width:200px;
                         height: 700px;
                     }
                     .card a{
@@ -45,10 +45,23 @@ const  ProjectCard = ({projectImage,projectTitle,projectDiscription,techStack,pr
                             grid-template-columns: 1fr; 
                             margin-left:100px;
                             margin-bottom:30px;
+                            padding-right:20px;
                         }
-                            .card img{
-                                height:280px;
-                            }
+                        .card img{
+                            height:395px;
+                        }
+                        .card h2 {
+                            margin-left:10px;
+                        }
+                        .card p {
+                            margin-left:10px;
+                        }
+                        .card h3 {
+                            margin-left:10px;
+                        }
+                        .card:hover {
+                            transform:scale(1.03);
+                        }
                     }
                 `}
             </style>

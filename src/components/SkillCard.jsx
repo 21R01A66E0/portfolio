@@ -23,19 +23,24 @@ const  SkillCard = ({skillPic,skillName,skillValue}) =>{
                         border-radius: 12px;
                         box-shadow: 0 4px 10px rgba(0,0,0,0.2);
                         transition: transform 0.2s ease;
-                        min-width:300px;
+                        min-width:200px;
                         height:auto;
                     }
 
                     .card:hover {
-                        transform: scale(1.08);
+                        transform: scale(1.06);
                     }
                     @media (max-width: 768px) {
                         .cardGrid {
                             grid-template-columns: 1fr; 
-                            margin-left:100px;
+                            margin-left:70px;
+                            padding-right:20px;
+                        }
+                        .card:hover {
+                            transform : scale(1.02);
                         }
                     }
+                    
                 `}
             </style>
             <div className="card">
