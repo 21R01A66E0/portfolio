@@ -71,6 +71,7 @@ const About = () => {
           .aboutTop {
             flex-direction: column;
             text-align: center;
+            margin-left:100px;
           }
 
           .aboutText {

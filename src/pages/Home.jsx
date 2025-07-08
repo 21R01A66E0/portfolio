@@ -90,15 +90,19 @@ const Home = () => {
           .aboutSection {
             flex-direction: column;
             text-align: center;
+            margin-left:70px;
           }
 
           .aboutText h2 {
             font-size: 1.4rem;
           }
+          .wordByWordStyling{
+            margin-left:5px;
+          }
         }
       `}</style>
       <section className="bgContainer">
-        <WordbyWordText />
+        <div className="wordByWordStyling"><WordbyWordText /></div>
       </section>
       <section id="about" className="aboutSection">
         <img src={profilePic} alt="Prashanth" />

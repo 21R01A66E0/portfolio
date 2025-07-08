@@ -16,7 +16,18 @@ const Skills = () => {
   const groupedSkills = groupByTechType();
 
   return (
-    <div style={{ padding: "60px 20px" }}>
+    <div className="skillsStyling">
+      <style>{`
+        .skillsStyling {
+          padding:60px 20px;
+        }
+        @media (max-width:768px) {
+          .skillsStyling h1 {
+            font-size:18px;
+            margin-left:20px;
+          }
+        }
+      `}</style>
       {Object.entries(groupedSkills).map(([techType, skillGroup], groupIndex) => (
         <div key={groupIndex} style={{ marginBottom: "30px" }}>
           <h1 style={{ paddingTop:"30px", color: "white", textAlign: "center", marginBottom: "15px" }}>{techType}</h1>

@@ -18,7 +18,7 @@ const Socials = () => {
           margin-top: 20px;
           margin-bottom:50px;
         }
-        @media (max-width:590px){
+        @media (max-width:768px){
           .iconContainerStyle{
             flex-direction:column;
             width:auto;

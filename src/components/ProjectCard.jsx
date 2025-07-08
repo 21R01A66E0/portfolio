@@ -32,19 +32,28 @@ const  ProjectCard = ({projectImage,projectTitle,projectDiscription,techStack,pr
                         color: #00bcd4;
                         text-decoration: none;
                     }
-
+                    .card img {
+                        height:400px;
+                        width:100%;
+                        margin-bottom:15px;
+                    }
                     .card:hover {
                         transform: scale(1.05);
                     }
                     @media (max-width: 768px) {
                         .cardGrid {
                             grid-template-columns: 1fr; 
+                            margin-left:100px;
+                            margin-bottom:30px;
                         }
+                            .card img{
+                                height:280px;
+                            }
                     }
                 `}
             </style>
             <div className="card">
-                <img src={projectImage} alt={projectTitle} style={{height:"400px",width:"100%",marginBottom:"15px"}}/>
+                <img src={projectImage} alt={projectTitle}/>
                 <h2 style={{marginBottom:"15px"}}><span style={{color:"cyan",fontWeight:"bold"}}>Title:  </span>{projectTitle}</h2>
                 <p style={{marginBottom:"15px"}}><spam style={{color:"cyan",fontWeight:"bold"}}>Discription:  </spam> {projectDiscription}</p>
                 <h3><spam style={{color:"cyan"}}>Tech Stack used:  </spam>  {techStack}</h3>

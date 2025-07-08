@@ -4,7 +4,7 @@ import { useEffect,useState } from "react";
 const fullText = "Hello, I'm Prashanth. A Front-End developer and Poetic Soul.";
 const words=fullText.split(" ");
 function WordbyWordText() {
-    const isResponsive=useMediaQuery('(max-width:590px');
+    const isResponsive=useMediaQuery('(max-width:700px');
     const [visibleCount,setVisibleCount] = useState(0);
     useEffect(()=>{
         const timer = setTimeout(()=>{

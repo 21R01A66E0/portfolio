@@ -33,6 +33,7 @@ const  SkillCard = ({skillPic,skillName,skillValue}) =>{
                     @media (max-width: 768px) {
                         .cardGrid {
                             grid-template-columns: 1fr; 
+                            margin-left:100px;
                         }
                     }
                 `}
