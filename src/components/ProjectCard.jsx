@@ -22,7 +22,7 @@ const  ProjectCard = ({projectImage,projectTitle,projectDiscription,techStack,pr
                         border-radius: 12px;
                         box-shadow: 0 4px 10px rgba(0,0,0,0.2);
                         transition: transform 0.2s ease;
-                        min-width:300px;
+                        min-width:200px;
                         height: 700px;
                     }
                     .card a{
@@ -48,7 +48,7 @@ const  ProjectCard = ({projectImage,projectTitle,projectDiscription,techStack,pr
                             padding-right:8px;
                         }
                         .card img{
-                            height:265px;
+                            height:260px;
                         }
                         .card h2 {
                             margin-left:10px;

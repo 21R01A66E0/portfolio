@@ -23,7 +23,7 @@ const  SkillCard = ({skillPic,skillName,skillValue}) =>{
                         border-radius: 12px;
                         box-shadow: 0 4px 10px rgba(0,0,0,0.2);
                         transition: transform 0.2s ease;
-                        min-width:300px;
+                        min-width:200px;
                         height:auto;
                     }
 
