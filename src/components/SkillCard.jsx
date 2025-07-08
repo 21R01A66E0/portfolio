@@ -34,7 +34,7 @@ const  SkillCard = ({skillPic,skillName,skillValue}) =>{
                         .cardGrid {
                             grid-template-columns: 1fr; 
                             margin-left:70px;
-                            padding-right:20px;
+                            padding-right:8px;
                         }
                         .card:hover {
                             transform : scale(1.02);

@@ -45,10 +45,10 @@ const  ProjectCard = ({projectImage,projectTitle,projectDiscription,techStack,pr
                             grid-template-columns: 1fr; 
                             margin-left:100px;
                             margin-bottom:30px;
-                            padding-right:20px;
+                            padding-right:8px;
                         }
                         .card img{
-                            height:395px;
+                            height:330px;
                         }
                         .card h2 {
                             margin-left:10px;
