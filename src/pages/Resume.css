@@ -38,11 +38,10 @@
     align-items: center;
 }
 .resumeProfileSectionImage img {
-    height: 80px;
+    height: 90px;
     width: 80px;
     object-fit: cover;
     border: 2px solid white;
-    border-radius: 50%;
 }
 .resumeProfileSection h4 {
     margin-top:20px;
