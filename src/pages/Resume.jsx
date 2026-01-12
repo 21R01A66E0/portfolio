@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/profile.jpg";
+import profilePic from "../assets/prasa.jpeg";
 import { MdLocationPin,MdEmail } from "react-icons/md";
 import { FaMobile} from "react-icons/fa";
 import skills from "../data/skills";
