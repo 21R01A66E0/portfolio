@@ -148,8 +148,8 @@ const Resume = () =>{
                 <a href="https://21r01a66e0-tic-tac-toe-game.netlify.app/" target="_blank" rel="noopener noreferrer">Project Link →</a>
               </div>
             </div>
-            <h6 style={{marginBottom:"8px"}}>I here by declare that the above mentioned information is correct up to my knowledge and i bear the responsibility of the mentioned particulars.</h6>
-            <h5 style={{fontSize:"15px" ,marginBottom:"15px"}}>PRASHNATH BURRA.</h5>
+            <!-- <h6 style={{marginBottom:"8px"}}>I here by declare that the above mentioned information is correct up to my knowledge and i bear the responsibility of the mentioned particulars.</h6>
+            <h5 style={{fontSize:"15px" ,marginBottom:"15px"}}>PRASHNATH BURRA.</h5> -->
           </div>
         </div>
     </div>
